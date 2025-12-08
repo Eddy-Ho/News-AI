@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2025-12-08 23:23:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">11</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017059" target="_blank" class="news-link">英国10年期国债价格跌幅扩大，10年期英债收益率涨5个基点，报4.53%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3760903" target="_blank" class="news-link">静待美联储决议，美股高开，10年期日债收益率创18年新高，铜价再创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5131248" target="_blank" class="news-link">美股异动｜奈飞盘初跌近3% 特朗普言论引发担忧</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3760903" target="_blank" class="news-link">静待美联储决议，美股指数期货小幅上扬，10年期日债收益率创18年新高，铜价再创新高</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017048" target="_blank" class="news-link">焦煤主力合约夜盘跌近3%，焦炭主力合约跌幅为2.51%。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251208224259578800" target="_blank" class="news-link">煤炭期货跌幅扩大，焦煤主力合约跌近3%，焦炭主力合约跌幅为2.51%。</a> [12] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017046" target="_blank" class="news-link">行业ETF美股盘初涨跌各异，半导体ETF涨1.57%，全球科技股指数ETF涨1.12%，科技行业ETF涨1.10%，网络股指数涨0.11%，能源业ETF则跌0.48%，可选消费ETF跌0.85%。</a> [13] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3017042" target="_blank" class="news-link">迈威尔科技跌9.8%，创8月29日以来最大盘中跌幅。 Benchmar预计该公司将丧失在亚马逊的业务，从而将评级从“买入”下调至“持有”。</a> [16]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251208223630048800" target="_blank" class="news-link">金十图示：2025年12月08日（周一）美股热门股票行情一览</a> [18] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251208223524929800" target="_blank" class="news-link">奈飞(NFLX.O)跌幅扩大至近3%。</a> [19] <font color='grey'>- 23时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20251208223051619800" target="_blank" class="news-link">美股开盘，道指跌0.06%，标普500指数涨0.09%，纳指涨0.32%。华纳兄弟探索公司(WBD.O)涨5.6%，派拉蒙向其提出30美元/股的收购要约。Rivian(RIVN.O)跌2.5%，特斯拉(TSLA.O)跌1.7%，摩根士丹利下调两家公司的评级。</a> [24] <font color='grey'>- 23时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
