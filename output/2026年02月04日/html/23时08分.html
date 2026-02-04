@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-02-04 23:08:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">13</td>
+                <td class="percentage">10.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049974" target="_blank" class="news-link">纳斯达克100指数跌幅扩大至1%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5168033" target="_blank" class="news-link">美股异动丨礼来大涨超10%，减肥药销量爆发带动Q4业绩强劲增长超预期</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204230254915800" target="_blank" class="news-link">纳指跳水跌超1%，英伟达(NVDA.O)跌2%，亚马逊(AMZN.O)跌1.6%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5168030" target="_blank" class="news-link">纳指低开0.16%，AMD绩后大跌近12%，超微电脑涨近9%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049959" target="_blank" class="news-link">现货黄金短线从5037美元附近跳水，逼近4967美元，日内整体涨幅迅速收窄至0.5%。 现货白银回落至89美元一线，目前涨4.6%，美股盘前还曾涨至92.2043美元。</a> [11]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049957" target="_blank" class="news-link">美股地区银行指数创盘中历史新高，一度涨约2%，至140.77点——突破2022年1月18日顶部140.11点。</a> [13] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049952" target="_blank" class="news-link">波士顿科学（BSX）跌13%，创2020年3月以来最大盘中跌幅。</a> [15] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BA%B3%E6%8C%87%E4%BD%8E%E5%BC%800.28%25+AMD%E5%A4%A7%E8%B7%8C%E8%B6%8510%25" target="_blank" class="news-link">纳指低开0.28% AMD大跌超10%</a> [18] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049948" target="_blank" class="news-link">区域银行ETF涨2.47%，银行业ETF涨1.91%，能源业ETF涨1.34%，领跑美股行业ETF，半导体ETF跌1.71%。</a> [20] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049954" target="_blank" class="news-link">Applovin跌13%，创8月份以来最大盘中跌幅。</a> [21] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049953" target="_blank" class="news-link">AMD低开13%，创2022年12月以来最大盘中跌幅。</a> [22] <font color='grey'>- 23时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3049946" target="_blank" class="news-link">标普500指数高开6.69点，涨幅0.10%，报6924.50点； 道琼斯工业平均指数高开82.60点，涨幅0.17%，报49323.59点； 纳斯达克综合指数低开38.17点，跌幅0.16%，报23217.02点。</a> [24]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260204223637385800" target="_blank" class="news-link">金十图示：2026年02月04日（周三）美股热门股票行情一览</a> [29] <font color='grey'>- 23时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
