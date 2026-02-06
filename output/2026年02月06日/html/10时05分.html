@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 215</p><p>生成时间: 2026-02-06 10:05:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">9</td>
+                <td class="percentage">4.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765023" target="_blank" class="news-link">软件股抛售蔓延，就业数据疲软，美股指跌超1%，白银暴跌19%，比特币崩跌，美债中概涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3051015" target="_blank" class="news-link">A股三大指数均跌超1%，贵金属、AI应用、油气、零售等方向跌幅居前，沪深京三市下跌个股近4500只。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5168900" target="_blank" class="news-link">美股异动丨Reddit夜盘涨近4%，Q4业绩超预期+拟回购10亿美元股票</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5168896" target="_blank" class="news-link">美股异动丨Roblox夜盘涨9.3%，Q4预订量同比大增63%超预期</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E3%80%81%E9%87%91%E9%93%B6%E3%80%81%E6%AF%94%E7%89%B9%E5%B8%81%E3%80%81%E7%9F%B3%E6%B2%B9+%E5%85%A8%E5%B4%A9%E4%BA%86" target="_blank" class="news-link">美股、金银、比特币、石油 全崩了</a> [12] <font color='grey'>- 10时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050994" target="_blank" class="news-link">现货白银转涨，稍早一度跌超8%。 现货黄金日内跌幅收窄至0.5%，重返4750美元关口上方。</a> [15]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050991" target="_blank" class="news-link">碳酸锂主力合约日内跌幅达8%。</a> [17] <font color='grey'>- 10时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765023" target="_blank" class="news-link">软件股抛售蔓延，就业数据疲软，美股指跌超1%，白银暴跌19%，比特币崩跌，美债中概涨</a> [18] <font color='grey'>- 10时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3050977" target="_blank" class="news-link">现货黄金、白银跌幅收窄，现货黄金现跌1.1%，重返4700美元上方，此前一度跌超2%；现货白银跌幅收窄至4.2%，此前一度跌超8%。</a> [29] <font color='grey'>- 10时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
