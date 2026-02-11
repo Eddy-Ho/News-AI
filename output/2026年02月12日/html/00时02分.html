@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 405</p><p>生成时间: 2026-02-12 00:02:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">12</td>
+                <td class="percentage">2.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765438" target="_blank" class="news-link">美股遍寻“下一个AI受害者”，周一保险经纪崩了、周二财富管理崩了，嘉信理财盘中跌超9%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765486" target="_blank" class="news-link">非农就业意外强劲，美股指集体高开，标普500创新高，美元指数短线走高，美债承压，黄金涨幅收窄</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5171924" target="_blank" class="news-link">美股异动丨吉利德科学涨5.8%创新高，Q4营收及调整后每股收益均超预期</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765486" target="_blank" class="news-link">非农就业意外强劲，美股指集体高开，标普500创新高，美元指数短线走高，美债承压，黄金涨幅收窄</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5171923" target="_blank" class="news-link">美股异动丨下一代AI内存技术ZAM正式亮相，英特尔涨超5%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2004662806780338439" target="_blank" class="news-link">84 岁吉姆·罗杰斯清空美股，坚定持有金银铜称要留给后代，预言下次危机是其一生中最惨烈危机，如何解读？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765455" target="_blank" class="news-link">“AI之战”输不得！如果美股Mag 7今年就把现金流“烧成负数”，这对市场意味着什么？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5171917" target="_blank" class="news-link">美股异动丨特斯拉涨2.5%，大摩指特斯拉太阳能制造布局具战略意义</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053837" target="_blank" class="news-link">美国三大股指悉数转跌，道指跌超百点，纳指跌0.5%，半导体指数涨幅收窄至0.9%，生物科技指数跌0.9%，特斯拉跌0.4%。 纳斯达克金龙中国指数跌超1%。</a> [12] <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5171914" target="_blank" class="news-link">美股异动｜多邻国跌4.7%，T-Mobile实时AI翻译服务再度引发市场担忧</a> [12] <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053824" target="_blank" class="news-link">纳斯达克金龙中国指数跌幅扩大至0.5%。 热门中概股文远知行跌4.4%，再鼎医药跌4.2%，阿里巴巴跌1.9%，网易、小马智行跌约1.5%。 贝壳、华住涨1.8%，万国数据、理想涨超1.9%，B站涨超2.8%，世纪互联涨约5%，金山云涨10.2%。</a> [22] <font color='grey'>- 00时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3053813" target="_blank" class="news-link">美泰（MAT）重挫29%，创1999年以来最大盘中跌幅，业绩报告显示，该公司假日销售季业绩逊色于市场预期。 孩之宝（HAS）涨约0.6%。</a> [30] <font color='grey'>- 00时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
