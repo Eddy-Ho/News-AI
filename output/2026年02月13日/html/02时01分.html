@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 92</p><p>生成时间: 2026-02-13 02:01:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">10</td>
+                <td class="percentage">10.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">CPI前夕美股高开低走，盘中标普纳指跌超1%、思科跌超10%，白银跳水超7%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765553" target="_blank" class="news-link">CPI前夕美股高开低走，盘中标普纳指跌超1%、思科跌超10%，白银跳水超7%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054653" target="_blank" class="news-link">C.H. Robinson跌幅扩大至24%，创美国IPO以来最差盘中表现。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054649" target="_blank" class="news-link">布伦特原油日内跌幅达3.0%，报67.3美元/桶。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213013248023800" target="_blank" class="news-link">金十图示：2026年02月12日（周四）美股热门股票行情一览（美股盘中）</a> [12] <font color='grey'>- 02时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054646" target="_blank" class="news-link">WTI原油日内跌幅达3.0%，报62.69美元/桶。</a> [13] <font color='grey'>- 02时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213013021476800" target="_blank" class="news-link">金十图示：2026年02月12日（周四）热门中概股行情一览（美股盘中）</a> [15] <font color='grey'>- 02时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054642" target="_blank" class="news-link">数字货币市场回吐涨幅，追随美股和金银的短线走势</a> [17] <font color='grey'>- 02时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3054640" target="_blank" class="news-link">明晟公司MSCI北欧国家指数跌1.8%，报385.57点。 在十个板块中，北欧工业板块跌幅最大。 DSV A/S跌10.5%，在一众北欧个股里表现最差。</a> [19]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260213010336147800" target="_blank" class="news-link">欧莱雅第四季度同比销售额增长6%，市场预期增长6.46%。欧莱雅ADR跌幅扩大至6.8%。</a> [30] <font color='grey'>- 02时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
