@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 56</p><p>生成时间: 2026-02-24 06:08:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">13</td>
+                <td class="percentage">23.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3765966" target="_blank" class="news-link">AI担忧加剧、关税战风险重燃，金融和软件股拖垮美股，金银大涨，期银一度涨近8%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3766006" target="_blank" class="news-link">美股多板块盘中集体重挫，一份假想AI报告引发的抛售潮</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057669" target="_blank" class="news-link">华纳兄弟探索公司（WBD）美股盘后涨1.6%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057666" target="_blank" class="news-link">道指ETF收跌超1.6%，和小盘股ETF领跌美股大类资产类ETF，黄金ETF涨2.7%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057665" target="_blank" class="news-link">美股七巨头收盘播报｜微软收跌3.2%，特斯拉、Meta、亚马逊至多跌2.9%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3765966" target="_blank" class="news-link">AI担忧加剧、关税战风险重燃，金融和软件股拖垮美股，金银大涨，期银一度涨近8%</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260224051035173800" target="_blank" class="news-link">金十图示：2026年02月23日（周一）美股热门股票行情一览（美股收盘）</a> [13] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260224050959361800" target="_blank" class="news-link">金十图示：2026年02月23日（周一）热门中概股行情一览（美股收盘）</a> [14] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057657" target="_blank" class="news-link">区域银行ETF和银行业ETF收跌超4.3%，领跌美股行业ETF</a> [15] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260224050545152800" target="_blank" class="news-link">美股三大股指大幅收跌 IBM大跌13%</a> [15] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057654" target="_blank" class="news-link">Visa创6月份以来最大单日跌幅，MasterCard创4月份以来最大单日跌幅。</a> [17] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057653" target="_blank" class="news-link">IBM创2000年以来最大日跌幅，Anthropic宣称AI工具可助COBOL现代化改造</a> [18] <font color='grey'>- 06时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3057648" target="_blank" class="news-link">道指收盘重挫超800点，纳指科技指数跌超1.4%，费城银行指数重挫4.4%</a> [21] <font color='grey'>- 06时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
