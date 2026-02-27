@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 132</p><p>生成时间: 2026-02-27 23:06:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">9</td>
+                <td class="percentage">6.82%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3766324" target="_blank" class="news-link">超预期PPI打压降息预期，AI担忧发酵，美股指集体低开，金银油携手大涨，美债上扬，人民币贬近150点</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227224301874800" target="_blank" class="news-link">美股延续跌势，标普500指数下跌1.01%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227223832563800" target="_blank" class="news-link">美股司法部：美国寻求没收一艘油轮及180万桶原油，这些物资曾为伊朗和委内瑞拉提供支持。</a> [11] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060374" target="_blank" class="news-link">纳斯达克金龙中国指数盘初跌幅扩大至1%。 热门中概股世纪互联跌6.23%，晶科能源跌4.5%，阿特斯太阳能跌4.11%，奇富科技跌2.97%，陆控跌2.59%，蔚来跌2.36%，万国数据跌2.25%。</a> [13]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060373" target="_blank" class="news-link">全球航空业ETF跌3.71%，区域银行ETF跌2.46%，银行业ETF跌2.4%，在美股盘初领跌行业ETF，全球科技股指数ETF、半导体ETF、科技行业ETF至多跌1.73%，能源业ETF涨0.93%。</a> [14] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060369" target="_blank" class="news-link">标普500指数低开52.32点，跌幅0.76%，报6856.54点； 道琼斯工业平均指数低开245.63点，跌幅0.50%，报49253.57点； 纳斯达克综合指数低开262.95点，跌幅1.15%，报22615.43点。</a> [17]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227223133844800" target="_blank" class="news-link">CoreWeave开盘大跌17%，跌幅创8月以来最大，因其支出引发投资者担忧。</a> [17] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260227223038290800" target="_blank" class="news-link">美股开盘，道指跌0.75%、标普500指数跌0.82%、纳指跌1.2%，奈飞(NFLX.O)开涨10.83%，此前公司宣布退出对华纳兄弟探索公司(WBD.O)的收购争夺；亚马逊(AMZN.O)跌0.44%，其宣布与OpenAI合作，并在OpenAI新一轮1100亿美元的投资中参投500亿美元。</a> [18] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3060354" target="_blank" class="news-link">周五美股盘前你需要了解的全球要闻</a> [29] <font color='grey'>- 23时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
