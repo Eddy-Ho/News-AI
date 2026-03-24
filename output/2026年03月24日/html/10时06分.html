@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 212</p><p>生成时间: 2026-03-24 10:06:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">8</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3768110" target="_blank" class="news-link">美伊“撕扯”全球市场，美股反弹，美债巨震，原油暴跌10%，黄金九连跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768212" target="_blank" class="news-link">特朗普TACO，亚太股市大幅高开，美股期货转跌令反弹蒙阴，原油大跌后反弹</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3075558" target="_blank" class="news-link">现货黄金日内跌幅扩大至2%，报每盎司4,317.19美元。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 10时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3075556" target="_blank" class="news-link">创业板指跌超1%，开盘一度涨超1%，深成指回落翻绿，沪指涨幅收窄至0.4%，油气、化工、贵金属、煤炭等板块跌幅居前，沪深京三市下跌个股超1200只。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 10时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3075544" target="_blank" class="news-link">中证转债指数开盘上涨0.44%。海天转债、嘉元转债、光力转债、振华转债、利扬转债涨幅居前，分别涨5.69%、4.27%、3.92%、3.24%、2.79%。东时转债、金宏转债、华特转债、杭氧转债、天壕转债跌幅居前，分别跌1.69%、1.40%、1.37%、0.84%、0.70%。</a> [13] <font color='grey'>- 10时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324094657148800" target="_blank" class="news-link">现货黄金延续跌势，日内跌幅达2%，至4317.19美元/盎司。</a> [14] <font color='grey'>- 10时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3768110" target="_blank" class="news-link">美伊“撕扯”全球市场，美股反弹，美债巨震，原油暴跌10%，黄金九连跌</a> [20] <font color='grey'>- 10时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3075528" target="_blank" class="news-link">美股期货走低，纳斯达克100指数期货跌0.5%，标普500指数期货跌0.45%。</a> [24] <font color='grey'>- 10时06分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">A股</td>
+                <td class="count">2</td>
+                <td class="percentage">0.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260324095711115800" target="_blank" class="news-link">A股军工板块短线拉升，长城军工封板涨停，北方长龙涨超10%，内蒙一机、天秦装备、江航装备、建设工业、航宇科技跟涨。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 10时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3075565" target="_blank" class="news-link">A股军工板块异动拉升，长城军工涨停，北方长龙涨超10%，内蒙一机、天秦装备、江航装备、建设工业、航宇科技跟涨。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 10时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
