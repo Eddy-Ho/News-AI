@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 189</p><p>生成时间: 2026-04-09 22:05:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">13</td>
+                <td class="percentage">6.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769555" target="_blank" class="news-link">美伊停火协议难止冲突，纳指涨0.06%，标普跌0.05%，油价强势反弹，金价4720美元震荡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085161" target="_blank" class="news-link">美股存储概念股盘初续涨，闪迪涨超5%再创历史新高，月内累涨约30%；美光科技、西部数据涨超1%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3769606" target="_blank" class="news-link">停火也拦不住美股散户卖出</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085158" target="_blank" class="news-link">英国国债跌幅扩大，10年期国债收益率上升10个基点至4.81%。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409214153885800" target="_blank" class="news-link">金十图示：2026年04月09日（周四）美股热门股票行情一览</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5206731" target="_blank" class="news-link">美股异动丨星座品牌涨超6%，Q4销售额及调整后每股收益超预期</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2339594" target="_blank" class="news-link">美伊停火持续性存疑 油价反弹美股震荡走弱 | 今夜看点</a> [11]</div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085153" target="_blank" class="news-link">北美科技软件股指数ETF美股盘初下跌2.6%。</a> [12] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%BC%80%E7%9B%98%EF%BC%9A%E8%94%9A%E6%9D%A5%E6%B6%A8%E8%B6%853%25" target="_blank" class="news-link">美股开盘：蔚来涨超3%</a> [14] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085145" target="_blank" class="news-link">美股三大股指涨跌不一，道指跌0.14%，标普500指数跌0.05%，纳指涨0.06%。蔚来涨超3%，蔚来ES9预售发布，52.8万元起；黑莓涨超8%，公司预计2027年营收5.84亿美元至6.11亿美元；CoreWeave涨约2%，公司拿下Meta210亿美元大单，锁定至2032年算力供应。</a> [18] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3085144" target="_blank" class="news-link">标普500指数高开0.88点，涨幅0.01%，报6783.69点； 道琼斯工业平均指数低开69.29点，跌幅0.14%，报47840.63点； 纳斯达克综合指数高开11.36点，涨幅0.05%，报22646.35点。</a> [19]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409213121429800" target="_blank" class="news-link">道琼斯指数4月9日（周四）开盘下跌211.74点，跌幅0.44%，报47698.18点；&lt;br/&gt;标普500指数4月9日（周四）开盘下跌13.41点，跌幅0.20%，报6769.40点；&lt;br/&gt;纳斯达克综合指数4月9日（周四）开盘下跌14.78点，跌幅0.07%，报22620.21点。</a> [23] <font color='grey'>- 22时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409213026692800" target="_blank" class="news-link">美股开盘，道指跌0.14%，标普500指数跌0.05%，纳指涨0.06%。芯片板块续涨，闪迪(SNDK.O)涨4.8%，Coreweave(CRWV.O)涨1.6%，公司与Meta扩大长期合作协议。纳斯达克中国金龙指数跌0.7%。</a> [25] <font color='grey'>- 22时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
