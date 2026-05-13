@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 201</p><p>生成时间: 2026-05-13 09:23:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">13</td>
+                <td class="percentage">6.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3772040" target="_blank" class="news-link">美国通胀升温、美伊僵局持续，美股承压，芯片股拖累纳指，美油盘中涨近5%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5232434" target="_blank" class="news-link">美股异动丨东南亚小腾讯Sea大涨超13% Q1业绩大超预期 Shopee GMV增长三成</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772128" target="_blank" class="news-link">芯片股终于跌了！费城半导体指数盘中一度跌6.8%，美光、英特尔、博通“领跌”纳指</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102597" target="_blank" class="news-link">韩国首尔综指日内跌幅收窄至1%，此前一度跌3%。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513090133102800" target="_blank" class="news-link">台湾加权指数5月13日（周三）开盘下跌609.21点，跌幅1.45%，报41289.11点。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772119" target="_blank" class="news-link">摩根大通CEO：美欧“愚蠢”贸易壁垒应该修复，美股未能反映中东风险</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3772040" target="_blank" class="news-link">美国通胀升温、美伊僵局持续，美股承压，芯片股拖累纳指，美油盘中涨近5%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513090002079800" target="_blank" class="news-link">早盘开盘，国内期货主力合约涨多跌少，低硫燃料油（LU）、SC原油、液化石油气（LPG）涨超2%，国际铜、燃油涨超1%，合成橡胶、豆一、沪铜、沥青涨近1%；跌幅方面，焦煤跌超3%，焦炭跌超2%，多晶硅、生猪、工业硅、氧化铝跌超1%。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2369664" target="_blank" class="news-link">5月13日投资避雷针：美股光通信、芯片板块回调 英特尔、闪迪跌超6%</a> [12] <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5232423" target="_blank" class="news-link">美股三大指数涨跌不一，芯片、半导体与光通信板块回调，中概指数跌0.82%</a> [14] <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%BE%8E%E8%82%A1&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">美股</a> [15] <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3102586" target="_blank" class="news-link">韩国首尔综指日内跌幅达3%，三星电子跌超5%。</a> [16] <font color='grey'>- 09时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513081010099800" target="_blank" class="news-link">澳大利亚S&amp;P/ASX200指数5月13日（周三）开盘下跌55.50点，跌幅0.64%，报8615.20点。</a> [24] <font color='grey'>- 09时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
