@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 224</p><p>生成时间: 2026-06-24 23:18:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">13</td>
+                <td class="percentage">5.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3775351" target="_blank" class="news-link">静待美光财报，美股半导体股普涨，黄金股普跌，现货黄金跌破4000美元，布油跌4%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124119" target="_blank" class="news-link">WTI原油期货重新跌穿70美元关口，目前跌幅大约4.6%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4137849_1_1" target="_blank" class="news-link">沪铝2608盘中走弱，跌幅扩大至2.05%，最新报22990元/吨；成交额约171.54亿元，日内增仓1.08万手，持仓变化明显。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2052869201178652833" target="_blank" class="news-link">全球 AI 交易降温，美股半导体相关 ETF 暴跌，闪迪、美光科技跌超 10%，发生了什么？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4137824_103_1" target="_blank" class="news-link">WTI原油期货重新跌穿70美元关口，目前跌幅大约4.6%。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3775351" target="_blank" class="news-link">静待美光财报，美股半导体股普涨，黄金股普跌，现货黄金跌破4000美元，布油跌4%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4137821_1_1" target="_blank" class="news-link">橡胶2609盘中明显走弱，跌幅扩大至4.06%，价格下探16910元/吨，成交额已超510亿元；日内增仓近2000手，盘面波动加大。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124110" target="_blank" class="news-link">WTI原油期货维持4.2%的跌幅，目前交投于70美元关口上方，最新数据显示，美国上周EIA原油库存下降609万桶，降幅超过彭博用户与受访分析师的预期。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2408279" target="_blank" class="news-link">美股期指小幅上涨 科技股反弹迎接美光财报“大考” | 今夜看点</a> [11] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5257403" target="_blank" class="news-link">美股异动丨哔哩哔哩拉升涨超5%，计划斥资3亿美元回购股票</a> [13] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4137793_212_1" target="_blank" class="news-link">美国能源信息署（EIA）数据显示汽油库存意外增加后，美国汽油期货延续跌势，跌幅小幅扩大，当前跌幅为2.74%。</a> [20] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3124095" target="_blank" class="news-link">全球航空业ETF美股盘初一度涨约3.4%，报32.24美元，创2020年1月份以来盘中新高，国际油价下跌有助于缓解航空燃油成本。</a> [23] <font color='grey'>- 23时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624223956185800" target="_blank" class="news-link">美国汽油期货跌幅小幅扩大，最新下跌2.74%。</a> [24] <font color='grey'>- 23时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
