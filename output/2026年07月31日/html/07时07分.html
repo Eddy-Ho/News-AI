@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 111</p><p>生成时间: 2026-07-31 07:07:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">8</td>
+                <td class="percentage">7.21%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778287" target="_blank" class="news-link">美通胀降温叠加微软业绩提振AI信心，纳指100创年内第三大涨幅，芯片指数暴涨8%，美元跳水</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778287" target="_blank" class="news-link">美通胀降温叠加微软业绩提振AI信心，纳指100创年内第三大涨幅，芯片指数暴涨8%，美元跳水</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3142689" target="_blank" class="news-link">美股存储芯片指数收涨超16.9%，闪迪涨约26%，SK海力士ADR涨超17.5%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2441995" target="_blank" class="news-link">美股收盘：满屏都是两位数涨幅 微软单日市值暴增3万亿</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3142674" target="_blank" class="news-link">周五亚太盘初，纳指期货涨超0.5%，标普股指期货、道指期货涨超0.1%。 苹果目前（美股盘后）跌超6.5%，该公司电话会已经结束；微软跌0.7%，台积电、AMD、希捷科技、英特尔、西部数据、闪迪涨1.34%-5.07%，发布了业绩报告的亚马逊涨9.3%。</a> [14]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731060546609800" target="_blank" class="news-link">纳指期货周五盘初上涨0.5%，受亚马逊(AMZN.O)盘后上涨提振。</a> [16] <font color='grey'>- 07时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3142665" target="_blank" class="news-link">在分析师电话会上，苹果预计第四财季营收同比将增长9%-11%，分析师预期增长12.1%。 预计第四财季总体收入将遭受两大因素的拖累：外汇和供应限制。 预计第四财季iPhone收入将受到供应限制的拖累，增速将陷入“10%-20%区间”（mid-teens）。 Mac和iPad产品也将遭受供应链的冲击。 苹果盘后跌幅扩大至7%。</a> [21]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260731053830299800" target="_blank" class="news-link">美股存储芯片概念股盘后继续走强，西部数据(WDC.O)涨超4%，希捷科技(STX.O)、美光科技(MU.O)和SK海力士(SKHY.O)涨3%，闪迪(SNDK.O)涨6%。</a> [29] <font color='grey'>- 07时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
