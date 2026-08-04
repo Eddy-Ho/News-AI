@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 220</p><p>生成时间: 2026-08-04 22:10:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">19</td>
+                <td class="percentage">8.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260804214210282800" target="_blank" class="news-link">金十图示：2026年08月04日（周二）美股热门股票行情一览</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4210992_1_1" target="_blank" class="news-link">苯乙烯（EB）主力合约日内走低201.00元，现报8276.00元/吨，跌幅2.37%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260804214203274800" target="_blank" class="news-link">美股光学和光子学组件股票走强，Applied Optoelectronics涨16%，Lumentum涨7%，Coherent涨11%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778638" target="_blank" class="news-link">美伊缓和叠加财报季提振，美股高开，光通信股走高，油价跌超5%，日元涨势终止</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3778667" target="_blank" class="news-link">油价跌幅扩大至4%！贝森特：明日美伊或达成协议以开放霍尔木兹海峡</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260804213707214800" target="_blank" class="news-link">原油系期货主力合约集体下跌，SC原油跌幅扩大至4.04%，现报515.3元/桶。低硫燃料油（LU）跌幅扩大至3.26%，现报4488元/吨。燃油下跌3.10%，现报3350元/吨。沥青下跌1.71%，现报4074元/吨。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4210985_212_1" target="_blank" class="news-link">英国石油股价随油价下跌进一步走低，跌幅达5%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2445568" target="_blank" class="news-link">美股期指全线上涨 卡特彼勒大涨逾10%领涨道指期货 | 今夜看点</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [格隆汇] <a href="https://www.gelonghui.com/news/5280248" target="_blank" class="news-link">美股异动｜传存储三大原厂2027年产能售罄，存储概念股集体上涨，SK海力士涨超6%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3778667" target="_blank" class="news-link">油价跌幅扩大至4%！贝森特：明日美伊或达成协议以开放霍尔木兹海峡</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144789" target="_blank" class="news-link">布伦特原油跌破80美元/桶，自7月中旬以来首次，日内跌幅达4.5%，报79.86美元/桶，美国财长贝森特4日称可能“今天或明天”达成协议开放霍尔木兹海峡。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144788" target="_blank" class="news-link">美股三大股指集体高开，道指涨1.17%，标普500指数涨0.4%，纳指涨0.78%。卡特彼勒上涨12%，创2022年10月以来最大单日涨幅。Palantir涨超14%，公司大幅上调全年收入预期。光通信股持续走高，Lumentum涨超8%，Coherent涨超11%。</a> [11] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260804213034015800" target="_blank" class="news-link">美股开盘，道指涨1.17%，标普500指数涨0.4%创盘中历史新高，纳指涨0.78%。Palantir(PLTR.N)涨14.7%，公司大幅上调全年收入预期。SpaceX(SPCX.O)和AMD(AMD.O)盘后将公布财报，分别涨2.8%和3.7%。美光科技(MU.O)涨4%，康宁(GLW.N)涨5.6%。</a> [16] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4210930_1_1" target="_blank" class="news-link">原油2609成交额已超139亿元，日内跌幅达3.72%，最新报517元/桶，日内增仓近200手，价格下跌同时持仓增加。</a> [17] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260804212851641800" target="_blank" class="news-link">布伦特原油跌幅扩大至4%，现报79.71美元/桶，创七月中旬以来新低。WTI原油现跌4.2%。</a> [18] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4210928_1_1" target="_blank" class="news-link">短纤主力合约日内跌幅达2.00%，现报7280.00元/吨。</a> [18] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [快讯通] <a href="https://www.fastbull.com/cn/fastshort/4210926_1_1" target="_blank" class="news-link">布伦特原油跌幅扩大至4%，现报79.71美元/桶。WTI原油现跌4.2%。</a> [19] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3144773" target="_blank" class="news-link">周二美股盘前你需要了解的全球要闻</a> [25] <font color='grey'>- 22时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260804212202786800" target="_blank" class="news-link">金十数据整理：每日美股市场要闻速递（2026-08-04）</a> [26] <font color='grey'>- 22时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
