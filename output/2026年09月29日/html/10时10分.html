@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2026-09-29 10:10:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美股 纳指 跌幅</td>
+                <td class="count">7</td>
+                <td class="percentage">2.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782633" target="_blank" class="news-link">中东局势不明，原油冲高回落，美股指收跌，10年期美债收益率创2007年来新高，黄金重挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2494700" target="_blank" class="news-link">【早报】美股光通信、存储股，集体走弱；金价大幅跳水；多家A股公司，计划回购股份</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171835" target="_blank" class="news-link">中证转债指数开盘下跌0.01%。金帝转债、福新转债、航宇转债、严牌转债、鼎通转债跌幅居前，分别跌2.37%、1.57%、1.52%、1.52%、1.39%。润禾转02、万凯转债、易瑞转债、大中转债、三江转债涨幅居前，分别涨30.00%、2.99%、1.73%、1.62%、1.42%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最热] <a href="https://wallstreetcn.com/articles/3782662" target="_blank" class="news-link">摩根大通：美股科技七巨头“杀估值”已近尾声，但难再回到“一枝独秀”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 最新] <a href="https://wallstreetcn.com/articles/3782633" target="_blank" class="news-link">中东局势不明，原油冲高回落，美股指收跌，10年期美债收益率创2007年来新高，黄金重挫</a> [15] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171818" target="_blank" class="news-link">日经225指数日内跌幅扩大至1%。</a> [17] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7690723201587875371/" target="_blank" class="news-link">美股三大指数集体收跌</a> [24] <font color='grey'>- 10时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">A股</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929094240845800" target="_blank" class="news-link">A股化学制药板块短线拉升，津药药业涨停，丽珠集团、贝达药业、海辰药业、益方生物、科伦药业跟涨。</a> [17] <font color='grey'>- 10时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929093718888800" target="_blank" class="news-link">A股元件板块直线拉升，依顿电子涨停，迅捷兴、澳弘电子、四会富仕、满坤科技、铜峰电子等纷纷走高。</a> [25] <font color='grey'>- 10时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻 快讯] <a href="https://wallstreetcn.com/livenews/3171822" target="_blank" class="news-link">华为Mate90系列将于10月1日10：00正式发布。</a> [13] <font color='grey'>- 10时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
